@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import { svelte } from '@sveltejs/vite-plugin-svelte'
 import { existsSync, readdirSync } from 'fs';
 import { resolve } from 'path';
-// import { config } from "./config.ts";
+import { config } from "./config.ts";
 
 const getBlockEntry = (blockName: string, fileType: string): string | null => {
     const filePath = resolve(__dirname, `src/blocks/${blockName}/${blockName}.${fileType}`);
@@ -36,20 +36,20 @@ export const generateBlockEntries = () => {
 
 export default defineConfig((configEnv) => {
     // const { mainTsPath, mainScssPath, fontsScssPath, lazyStylesScssPath, sidekickLibraryStylesScssPath } = config;
-    // const { mainTsPath } = config;
+    const { mainScssPath, lazyStylesScssPath, fontsScssPath} = config;
     const blocksEntries = generateBlockEntries();
 
     // @ts-ignore
     const inputOptions: InputOption = {
         // main: resolve(__dirname, mainTsPath),
-        // styles: resolve(__dirname, mainScssPath),
+        styles: resolve(__dirname, mainScssPath),
         ...blocksEntries,
     };
 
     console.log(inputOptions);
 
-    // if (fontsScssPath) inputOptions.fonts = resolve(__dirname, fontsScssPath);
-    // if (lazyStylesScssPath) inputOptions.lazyStyles = resolve(__dirname, lazyStylesScssPath);
+    if (fontsScssPath) inputOptions.fonts = resolve(__dirname, fontsScssPath);
+    if (lazyStylesScssPath) inputOptions.lazyStyles = resolve(__dirname, lazyStylesScssPath);
     // if (sidekickLibraryStylesScssPath) {
     //   inputOptions.sidekickLibraryStyles = resolve(__dirname, sidekickLibraryStylesScssPath);
     // }
