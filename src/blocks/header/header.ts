@@ -4,7 +4,7 @@ import './header.scss'
 
 export default async function decorate(block: Element) {
 
-    // hydrate(Header, {
-    //     target: block,
-    // })
+    hydrate(Header, {
+        target: block,
+    })
 }

@@ -32,7 +32,8 @@
     background-color: #c20000;
     border: 1px solid #c20000;
     border-radius: 4px;
-    fill: #fff
+    fill: #fff;
+    z-index: 1030;
   }
 
   .nab-footer__back-to-top-link:active,.nab-footer__back-to-top-link:focus {
