@@ -25,13 +25,14 @@
 //  font-weight: 900
 //}
 //
-//@font-face {
-//  font-family: source-sans-pro;
-//  src: url(clientlib-generated-vendors/resources/fonts/source-sans-pro-bold.woff2) format("woff2"),url(clientlib-generated-vendors/resources/fonts/source-sans-pro-bold.woff) format("woff"),url(clientlib-generated-vendors/resources/fonts/source-sans-pro-bold.otf) format("opentype");
-//  font-style: normal;
-//  font-weight: 700
-//}
-//
+@font-face {
+  font-family: source-sans-pro;
+  src: url(@/assets/fonts/source-sans-pro-bold.woff2) format("woff2");
+  font-style: normal;
+  font-display: optional;
+  font-weight: 700
+}
+
 //@font-face {
 //  font-family: source-sans-pro;
 //  src: url(clientlib-generated-vendors/resources/fonts/source-sans-pro-bold-italic.woff2) format("woff2"),url(clientlib-generated-vendors/resources/fonts/source-sans-pro-bold-italic.woff) format("woff"),url(clientlib-generated-vendors/resources/fonts/source-sans-pro-bold-italic.otf) format("opentype");
@@ -46,13 +47,14 @@
 //  font-weight: 400
 //}
 //
-//@font-face {
-//  font-family: source-sans-pro;
-//  src: url(clientlib-generated-vendors/resources/fonts/source-sans-pro-light.woff2) format("woff2"),url(clientlib-generated-vendors/resources/fonts/source-sans-pro-light.woff) format("woff"),url(clientlib-generated-vendors/resources/fonts/source-sans-pro-light.otf) format("opentype");
-//  font-style: normal;
-//  font-weight: 300
-//}
-//
+@font-face {
+  font-family: source-sans-pro;
+  src: url(@/assets/fonts/source-sans-pro-light.woff2) format("woff2");
+  font-style: normal;
+  font-display: optional;
+  font-weight: 300
+}
+
 //@font-face {
 //  font-family: source-sans-pro;
 //  src: url(clientlib-generated-vendors/resources/fonts/source-sans-pro-light-italic.woff2) format("woff2"),url(clientlib-generated-vendors/resources/fonts/source-sans-pro-light-italic.woff) format("woff"),url(clientlib-generated-vendors/resources/fonts/source-sans-pro-light-italic.otf) format("opentype");
@@ -60,13 +62,14 @@
 //  font-weight: 300
 //}
 //
-//@font-face {
-//  font-family: source-sans-pro;
-//  src: url(clientlib-generated-vendors/resources/fonts/source-sans-pro-semibold.woff2) format("woff2"),url(clientlib-generated-vendors/resources/fonts/source-sans-pro-semibold.woff) format("woff"),url(clientlib-generated-vendors/resources/fonts/source-sans-pro-semibold.otf) format("opentype");
-//  font-style: normal;
-//  font-weight: 600
-//}
-//
+@font-face {
+  font-family: source-sans-pro;
+  src: url(@/assets/fonts/source-sans-pro-semibold.woff2) format("woff2");
+  font-style: normal;
+  font-display: optional;
+  font-weight: 600
+}
+
 //@font-face {
 //  font-family: source-sans-pro;
 //  src: url(clientlib-generated-vendors/resources/fonts/source-sans-pro-semibold-italic.woff2) format("woff2"),url(clientlib-generated-vendors/resources/fonts/source-sans-pro-semibold-italic.woff) format("woff"),url(clientlib-generated-vendors/resources/fonts/source-sans-pro-semibold-italic.otf) format("opentype");
