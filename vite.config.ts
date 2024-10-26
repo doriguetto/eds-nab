@@ -48,8 +48,8 @@ export default defineConfig((configEnv) => {
 
     console.log(inputOptions);
 
-    if (fontsScssPath) inputOptions.fonts = resolve(__dirname, fontsScssPath);
-    if (lazyStylesScssPath) inputOptions.lazyStyles = resolve(__dirname, lazyStylesScssPath);
+    // if (fontsScssPath) inputOptions.fonts = resolve(__dirname, fontsScssPath);
+    // if (lazyStylesScssPath) inputOptions.lazyStyles = resolve(__dirname, lazyStylesScssPath);
     // if (sidekickLibraryStylesScssPath) {
     //   inputOptions.sidekickLibraryStyles = resolve(__dirname, sidekickLibraryStylesScssPath);
     // }
