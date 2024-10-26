@@ -33,7 +33,7 @@ function buildHeroBlock(main) {
  * load fonts.css and set a session storage flag
  */
 async function loadFonts() {
-  await loadCSS(`${window.hlx.codeBasePath}/styles/fonts.css`);
+  await loadCSS(`${window.hlx.codeBasePath}/blocks/fonts/fonts.css`);
   try {
     if (!window.location.hostname.includes('localhost')) sessionStorage.setItem('fonts-loaded', 'true');
   } catch (e) {
@@ -109,7 +109,7 @@ async function loadLazy(doc) {
   loadHeader(doc.querySelector('header'));
   loadFooter(doc.querySelector('footer'));
 
-  loadCSS(`${window.hlx.codeBasePath}/styles/lazy-styles.css`);
+  loadCSS(`${window.hlx.codeBasePath}/blocks/lazyStyles/lazyStyles.css`);
   loadFonts();
 }
 
