@@ -1,8 +1,8 @@
-import { defineConfig } from 'vite'
-import { svelte } from '@sveltejs/vite-plugin-svelte'
-import { existsSync, readdirSync } from 'fs';
-import { resolve } from 'path';
-import { config } from "./config.ts";
+import {defineConfig} from 'vite'
+import {svelte} from '@sveltejs/vite-plugin-svelte'
+import {existsSync, readdirSync} from 'fs';
+import {resolve} from 'path';
+import {config} from "./config.ts";
 
 const getBlockEntry = (blockName: string, fileType: string): string | null => {
     const filePath = resolve(__dirname, `src/blocks/${blockName}/${blockName}.${fileType}`);
@@ -21,7 +21,7 @@ const getBlockNamesFromSrcFolder = (): string[] => {
 
 const getTsEntry = (blockName: string): Record<string, string> | null => {
     const tsPath = getBlockEntry(blockName, 'ts');
-    return tsPath !== null ? { [blockName]: tsPath } : null;
+    return tsPath !== null ? {[blockName]: tsPath} : null;
 };
 
 export const generateBlockEntries = () => {
@@ -29,14 +29,14 @@ export const generateBlockEntries = () => {
     let entries = {};
     blockNames.forEach((blockName) => {
         const tsEntry = getTsEntry(blockName);
-        entries = { ...entries, ...tsEntry };
+        entries = {...entries, ...tsEntry};
     });
     return entries;
 };
 
 export default defineConfig((configEnv) => {
     // const { mainTsPath, mainScssPath, fontsScssPath, lazyStylesScssPath, sidekickLibraryStylesScssPath } = config;
-    const { mainScssPath, lazyStylesScssPath, fontsScssPath} = config;
+    const {mainScssPath, lazyStylesScssPath, fontsScssPath} = config;
     const blocksEntries = generateBlockEntries();
 
     // @ts-ignore
@@ -55,8 +55,9 @@ export default defineConfig((configEnv) => {
     // }
 
     return {
+        base: '/blocks',
         plugins: [
-            svelte()
+            svelte(),
         ],
         css: {
             devSourcemap: true,
@@ -69,6 +70,7 @@ export default defineConfig((configEnv) => {
         },
         resolve: {
             alias: {
+                '@': resolve(__dirname, 'src'),
                 Blocks: resolve(__dirname, 'src/blocks'),
                 // Components: resolve(__dirname, 'src/components'),
                 // Directives: resolve(__dirname, 'src/directives'),
@@ -92,13 +94,30 @@ export default defineConfig((configEnv) => {
                 preserveEntrySignatures: 'strict',
                 input: inputOptions,
                 output: {
-                    dir: 'blocks',
-                    assetFileNames: () => {
-                        return '[name]/[name][extname]';
+                    assetFileNames: ({name}) => {
+                        console.log(name)
+                        if (/\.(gif|jpe?g|png|svg)$/.test(name ?? '')) {
+                            return 'assets/img/[name]-[hash][extname]';
+                        }
+
+                        if (/\.css$/.test(name ?? '')) {
+                            return '[name]/[name][extname]';
+                        }
+
+                        if (/.(png|woff|woff2|eot|ttf)/.test(name ?? '')) {
+                            return 'assets/fonts/[name][extname]';
+                        }
+                        return 'assets/[name]-[hash][extname]';
                     },
+
+                    dir: 'blocks',
+                    // assetFileNames: () => {
+                    //     return '[name]/[name][extname]';
+                    // },
                     chunkFileNames: '__chunks__/[name].[hash].js',
                     entryFileNames: '[name]/[name].js',
                 },
+
                 // plugins: [svelte()],
             },
         },
