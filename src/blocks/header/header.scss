@@ -2107,5 +2107,73 @@
     cursor: not-allowed
   }
 
+  .nab-button-link--white .nab-button:active span {
+    text-decoration: none
+  }
+
+  .nab-button-icon--white .nab-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 48px;
+    margin: 8px;
+    color: #fff;
+    background-color: transparent;
+    box-shadow: 0 0 0 1px transparent
+  }
+
+  .nab-button-icon--white .nab-button:before {
+    min-height: inherit;
+    font-size: 0;
+    content: ""
+  }
+
+  .nab-button-icon--white .nab-button svg {
+    align-self: center;
+    width: 24px;
+    height: 24px
+  }
+
+  .nab-button-icon--white .nab-button:focus {
+    color: #fff
+  }
+
+  .nab-button-icon--white .nab-button:active {
+    color: #e6e6e6
+  }
+
+  .nab-button-icon--white .nab-button:hover {
+    color: #e6e6e6;
+    box-shadow: 0 0 0 1px grey
+  }
+
+  .nab-button-icon--white .nab-button:focus {
+    outline: 3px solid transparent
+  }
+  .nab-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 48px;
+    background-color: transparent;
+    border-radius: 4px;
+    box-shadow: none;
+    transition-timing-function: ease-in;
+    transition-duration: .2s;
+    transition-property: box-shadow,border-color,background-color,color,fill
+  }
+
+  .nab-button:focus,.nab-button:hover {
+    transition-timing-function: ease-in
+  }
+
+  .nab-button svg {
+    flex-shrink: 0;
+    align-self: stretch;
+    width: 24px;
+    height: 24px;
+    vertical-align: top
+  }
+
 
 }
