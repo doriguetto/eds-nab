@@ -1,6 +1,8 @@
 <script>
+    import ChevronRightSvg from "@/assets/chevron-right.svg?raw";
+    const {isActive} = $props();
 </script>
-<ul data-type="mega-menu" class="dropdown mega-menu hidden"
+<ul data-type="mega-menu" class="dropdown mega-menu {isActive ? 'active' : 'hidden'}"
     style="width: 1920px;">
     <li class="navigation__item--level-2 parent mega-menu-li">
 
@@ -8,9 +10,9 @@
         <a data-menulevel="2" data-menuitem-index="0" aria-expanded="false"
            class="mega-menu-anchor" href="/business">
             <span>Business home</span>
-            <span aria-hidden="true">
+            
         {@html ChevronRightSvg}
-    </span>
+
         </a>
 
     </li>
@@ -35,9 +37,9 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/business/business-bank-accounts">
                         <span>Business bank accounts</span>
-                        <span aria-hidden="true">
+                        
                     {@html ChevronRightSvg}
-                </span>
+
                     </a>
 
                 </li>
@@ -49,9 +51,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/business/business-bank-accounts/transaction-accounts">
                         <span>Business transaction accounts</span>
-                        <span aria-hidden="true">
+                        
                     {@html ChevronRightSvg}
-                </span>
                     </a>
 
                 </li>
@@ -63,9 +64,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/business/business-bank-accounts/savings-and-deposit-accounts">
                         <span>Business savings and term deposit accounts</span>
-                        <span aria-hidden="true">
+                        
                     {@html ChevronRightSvg}
-                </span>
                     </a>
 
                 </li>
@@ -77,9 +77,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/business/business-bank-accounts/specialised-accounts">
                         <span>Specialised accounts</span>
-                        <span aria-hidden="true">
+                        
                     {@html ChevronRightSvg}
-                </span>
                     </a>
 
                 </li>
@@ -359,9 +358,8 @@ Get a 6-month free trial with NAB Bookkeeper
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/business/loans-and-finance">
                         <span>Loans and finance</span>
-                        <span aria-hidden="true">
+                        
                     {@html ChevronRightSvg}
-                </span>
                     </a>
 
                 </li>
@@ -373,9 +371,8 @@ Get a 6-month free trial with NAB Bookkeeper
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/business/loans-and-finance/business-loans">
                         <span>Business loans</span>
-                        <span aria-hidden="true">
+                        
                     {@html ChevronRightSvg}
-                </span>
                     </a>
 
                 </li>
@@ -387,9 +384,8 @@ Get a 6-month free trial with NAB Bookkeeper
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/business/loans-and-finance/business-overdrafts">
                         <span>Business overdrafts</span>
-                        <span aria-hidden="true">
+                        
                     {@html ChevronRightSvg}
-                </span>
                     </a>
 
                 </li>
@@ -401,9 +397,8 @@ Get a 6-month free trial with NAB Bookkeeper
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/business/loans-and-finance/vehicle-or-equipment">
                         <span>Business car and equipment finance</span>
-                        <span aria-hidden="true">
+                        
                     {@html ChevronRightSvg}
-                </span>
                     </a>
 
                 </li>
@@ -415,9 +410,8 @@ Get a 6-month free trial with NAB Bookkeeper
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/business/loans-and-finance/trade-and-invoice-finance">
                         <span>Trade and invoice finance</span>
-                        <span aria-hidden="true">
+                        
                     {@html ChevronRightSvg}
-                </span>
                     </a>
 
                 </li>
@@ -429,9 +423,8 @@ Get a 6-month free trial with NAB Bookkeeper
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/business/loans-and-finance/guarantee">
                         <span>Bank guarantee</span>
-                        <span aria-hidden="true">
+                        
                     {@html ChevronRightSvg}
-                </span>
                     </a>
 
                 </li>
@@ -443,9 +436,8 @@ Get a 6-month free trial with NAB Bookkeeper
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/business/loans-and-finance/home-loans">
                         <span>Home loans for business owners</span>
-                        <span aria-hidden="true">
+                        
                     {@html ChevronRightSvg}
-                </span>
                     </a>
 
                 </li>
@@ -686,9 +678,8 @@ Get a 6-month free trial with NAB Bookkeeper
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/business/business-credit-cards">
                         <span>Business credit cards</span>
-                        <span aria-hidden="true">
+                        
                     {@html ChevronRightSvg}
-                </span>
                     </a>
 
                 </li>
@@ -700,9 +691,8 @@ Get a 6-month free trial with NAB Bookkeeper
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/business/business-credit-cards/benefits">
                         <span>Business credit card benefits</span>
-                        <span aria-hidden="true">
+                        
                     {@html ChevronRightSvg}
-                </span>
                     </a>
 
                 </li>
@@ -714,9 +704,8 @@ Get a 6-month free trial with NAB Bookkeeper
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/business/business-credit-cards/nab-rewards-business-signature-card">
                         <span>NAB Rewards Business Signature Card</span>
-                        <span aria-hidden="true">
+                        
                     {@html ChevronRightSvg}
-                </span>
                     </a>
 
                 </li>
@@ -728,9 +717,8 @@ Get a 6-month free trial with NAB Bookkeeper
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/business/business-credit-cards/nab-qantas-business-signature-card">
                         <span>NAB Qantas Business Signature Card</span>
-                        <span aria-hidden="true">
+                        
                     {@html ChevronRightSvg}
-                </span>
                     </a>
 
                 </li>
@@ -742,9 +730,8 @@ Get a 6-month free trial with NAB Bookkeeper
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/business/business-credit-cards/low-rate-business-card">
                         <span>NAB Low Rate Business Card</span>
-                        <span aria-hidden="true">
+                        
                     {@html ChevronRightSvg}
-                </span>
                     </a>
 
                 </li>
@@ -756,9 +743,8 @@ Get a 6-month free trial with NAB Bookkeeper
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/business/business-credit-cards/nab-business-card">
                         <span>NAB Business Card</span>
-                        <span aria-hidden="true">
+                        
                     {@html ChevronRightSvg}
-                </span>
                     </a>
 
                 </li>
@@ -770,9 +756,8 @@ Get a 6-month free trial with NAB Bookkeeper
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/business/business-credit-cards/nab-purchasing-and-corporate-cards">
                         <span>NAB Purchasing and Corporate Cards</span>
-                        <span aria-hidden="true">
+                        
                     {@html ChevronRightSvg}
-                </span>
                     </a>
 
                 </li>
@@ -1039,9 +1024,8 @@ Related tools and help
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/business/payments-and-merchants">
                         <span>EFTPOS, payments and merchants</span>
-                        <span aria-hidden="true">
+                        
                     {@html ChevronRightSvg}
-                </span>
                     </a>
 
                 </li>
@@ -1053,9 +1037,8 @@ Related tools and help
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/business/payments-and-merchants/accepting-in-person-payments">
                         <span>Accepting payments in person</span>
-                        <span aria-hidden="true">
+                        
                     {@html ChevronRightSvg}
-                </span>
                     </a>
 
                 </li>
@@ -1067,9 +1050,8 @@ Related tools and help
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/business/payments-and-merchants/ecommerce-and-online-payments">
                         <span>eCommerce and online payments</span>
-                        <span aria-hidden="true">
+                        
                     {@html ChevronRightSvg}
-                </span>
                     </a>
 
                 </li>
@@ -1081,9 +1063,8 @@ Related tools and help
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/business/payments-and-merchants/billing-and-recurring-payments">
                         <span>Billing and recurring payments</span>
-                        <span aria-hidden="true">
+                        
                     {@html ChevronRightSvg}
-                </span>
                     </a>
 
                 </li>
@@ -1095,9 +1076,8 @@ Related tools and help
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/business/payments-and-merchants/making-payments">
                         <span>Making payments</span>
-                        <span aria-hidden="true">
+                        
                     {@html ChevronRightSvg}
-                </span>
                     </a>
 
                 </li>
@@ -1109,9 +1089,8 @@ Related tools and help
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/business/payments-and-merchants/merchant-support-centre">
                         <span>Merchant support centre</span>
-                        <span aria-hidden="true">
+                        
                     {@html ChevronRightSvg}
-                </span>
                     </a>
 
                 </li>
@@ -1308,9 +1287,8 @@ Get $200 Cashback with NAB EFTPOS
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/business/online-banking">
                         <span>Online banking</span>
-                        <span aria-hidden="true">
+                        
                     {@html ChevronRightSvg}
-                </span>
                     </a>
 
                 </li>
@@ -1322,9 +1300,8 @@ Get $200 Cashback with NAB EFTPOS
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/business/online-banking/nab-connect">
                         <span>NAB Connect online banking</span>
-                        <span aria-hidden="true">
+                        
                     {@html ChevronRightSvg}
-                </span>
                     </a>
 
                 </li>
@@ -1336,9 +1313,8 @@ Get $200 Cashback with NAB EFTPOS
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/business/online-banking/nab-direct-link">
                         <span>NAB Direct Link</span>
-                        <span aria-hidden="true">
+                        
                     {@html ChevronRightSvg}
-                </span>
                     </a>
 
                 </li>
@@ -1350,9 +1326,8 @@ Get $200 Cashback with NAB EFTPOS
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/business/online-banking/nab-internet-banking">
                         <span>Internet banking for business</span>
-                        <span aria-hidden="true">
+                        
                     {@html ChevronRightSvg}
-                </span>
                     </a>
 
                 </li>
@@ -1619,9 +1594,8 @@ NAB Connect
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/business/international-and-foreign-exchange">
                         <span>International and foreign exchange</span>
-                        <span aria-hidden="true">
+                        
                     {@html ChevronRightSvg}
-                </span>
                     </a>
 
                 </li>
@@ -1633,9 +1607,8 @@ NAB Connect
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/business/international-and-foreign-exchange/international-money-transfers">
                         <span>International money transfers for business</span>
-                        <span aria-hidden="true">
+                        
                     {@html ChevronRightSvg}
-                </span>
                     </a>
 
                 </li>
@@ -1647,9 +1620,8 @@ NAB Connect
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/business/international-and-foreign-exchange/financial-markets">
                         <span>Financial markets</span>
-                        <span aria-hidden="true">
+                        
                     {@html ChevronRightSvg}
-                </span>
                     </a>
 
                 </li>
@@ -1661,9 +1633,8 @@ NAB Connect
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/business/international-and-foreign-exchange/international-payments">
                         <span>International payments</span>
-                        <span aria-hidden="true">
+                        
                     {@html ChevronRightSvg}
-                </span>
                     </a>
 
                 </li>
@@ -1826,9 +1797,8 @@ $0 international transfer fees
         <a data-menulevel="2" data-menuitem-index="7" aria-expanded="false"
            class="mega-menu-anchor" href="/business/industry">
             <span>Industry specific banking</span>
-            <span aria-hidden="true">
+            
         {@html ChevronRightSvg}
-    </span>
         </a>
 
 
@@ -1854,9 +1824,8 @@ $0 international transfer fees
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/business/small-business">
                         <span>Small business</span>
-                        <span aria-hidden="true">
+                        
                     {@html ChevronRightSvg}
-                </span>
                     </a>
 
                 </li>
@@ -1868,9 +1837,8 @@ $0 international transfer fees
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/business/small-business/moments">
                         <span>Business moments</span>
-                        <span aria-hidden="true">
+                        
                     {@html ChevronRightSvg}
-                </span>
                     </a>
 
                 </li>
@@ -1882,9 +1850,8 @@ $0 international transfer fees
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/business/small-business/hub">
                         <span>Small Business Hub</span>
-                        <span aria-hidden="true">
+                        
                     {@html ChevronRightSvg}
-                </span>
                     </a>
 
                 </li>
@@ -1901,9 +1868,8 @@ $0 international transfer fees
         <a data-menulevel="2" data-menuitem-index="9" aria-expanded="false"
            class="mega-menu-anchor" href="/business/nab-bookkeeper">
             <span>NAB Bookkeeper</span>
-            <span aria-hidden="true">
+            
         {@html ChevronRightSvg}
-    </span>
         </a>
 
 

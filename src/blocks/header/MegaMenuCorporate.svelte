@@ -1,8 +1,9 @@
 <script>
-import ChevronRightSvg from "@/assets/chevron-right.svg";
+    import ChevronRightSvg from "@/assets/chevron-right.svg?raw";
+    const {isActive} = $props();
 </script>
 
-<ul data-type="mega-menu" class="dropdown mega-menu hidden"
+<ul data-type="mega-menu" class="dropdown mega-menu {isActive ? 'active' : 'hidden'}"
     style="width: 1920px;">
     <li class="navigation__item--level-2 parent mega-menu-li">
 
@@ -10,9 +11,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
         <a data-menulevel="2" data-menuitem-index="0" aria-expanded="false"
            class="mega-menu-anchor" href="/corporate">
             <span>Corporate</span>
-            <span aria-hidden="true">
+            
                                                             {@html ChevronRightSvg}
-                                                        </span>
         </a>
 
     </li>
@@ -23,9 +23,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
         <a data-menulevel="2" data-menuitem-index="1" aria-expanded="false"
            class="mega-menu-anchor" href="/corporate/global-relationships">
             <span>Global relationships</span>
-            <span aria-hidden="true">
+            
                                                             {@html ChevronRightSvg}
-                                                        </span>
         </a>
 
 
@@ -51,9 +50,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/corporate/industry-expertise">
                         <span>Industry expertise</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -65,9 +63,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/corporate/industry-expertise/innovating-in-the-property-sector">
                         <span>Innovating in the property sector</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -79,9 +76,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/corporate/industry-expertise/other-specialised-industries">
                         <span>Other specialised industries </span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -257,9 +253,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/corporate/specialist-solutions">
                         <span>Specialist solutions</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -271,9 +266,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/corporate/specialist-solutions/specialised-finance">
                         <span>Specialised finance</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -285,9 +279,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/corporate/specialist-solutions/creating-value-through-trade-and-working-capital">
                         <span>Creating value through working capital</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -299,9 +292,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/corporate/specialist-solutions/enabling-global-transactions">
                         <span>Enabling global transactions</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -313,9 +305,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/corporate/specialist-solutions/managing-market-risk">
                         <span>Managing market risk</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -327,9 +318,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/corporate/specialist-solutions/partnering-investors">
                         <span>Partnering with investors</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -341,9 +331,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/corporate/specialist-solutions/building-global-infrastructure">
                         <span>Building global infrastructure</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -505,9 +494,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
         <a data-menulevel="2" data-menuitem-index="4" aria-expanded="false"
            class="mega-menu-anchor" href="/corporate/sustainability-esg">
             <span>Sustainability and ESG</span>
-            <span aria-hidden="true">
+            
                                                             {@html ChevronRightSvg}
-                                                        </span>
         </a>
 
 
@@ -519,9 +507,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
         <a data-menulevel="2" data-menuitem-index="5" aria-expanded="false"
            class="mega-menu-anchor" href="/corporate/research-insights">
             <span>Research and insights</span>
-            <span aria-hidden="true">
+            
                                                             {@html ChevronRightSvg}
-                                                        </span>
         </a>
 
 

@@ -1,8 +1,9 @@
 <script>
-import ChevronRightSvg from "@/assets/chevron-right.svg";
+    import ChevronRightSvg from "@/assets/chevron-right.svg?raw";
+    const {isActive} = $props();
 </script>
 
-<ul data-type="mega-menu" class="dropdown mega-menu hidden"
+<ul data-type="mega-menu" class="dropdown mega-menu {isActive ? 'active' : 'hidden'}"
     style="width: 1920px;">
     <li class="navigation__item--level-2 parent mega-menu-li">
 
@@ -10,9 +11,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
         <a data-menulevel="2" data-menuitem-index="0" aria-expanded="false"
            class="mega-menu-anchor" href="/about-us">
             <span>About us</span>
-            <span aria-hidden="true">
+            
                                                             {@html ChevronRightSvg}
-                                                        </span>
         </a>
 
     </li>
@@ -36,9 +36,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/about-us/security">
                         <span>Security</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -50,9 +49,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/about-us/security/latest-fraud-scam-alerts">
                         <span>Latest scams, phishing messages and fraud alerts</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -64,9 +62,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/about-us/security/cyber-safety-training-modules">
                         <span>Cyber safety training</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -78,9 +75,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/about-us/security/online-safety-tips">
                         <span>Personal security hub</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -92,9 +88,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/about-us/security/online-safety-tips-business">
                         <span>Business security hub</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -239,9 +234,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/about-us/careers">
                         <span>Careers at NAB</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -253,9 +247,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/about-us/careers/benefits">
                         <span>Benefits of working at NAB</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -267,9 +260,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="https://careers.nab.com.au/en/listing/">
                         <span>Search and apply for jobs</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -281,9 +273,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/about-us/careers/business-areas">
                         <span>Our business areas</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -295,9 +286,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/about-us/careers/early-careers">
                         <span>Graduate jobs and early careers</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -309,9 +299,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/about-us/careers/first-nations-careers">
                         <span>First Nations careers</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -342,9 +331,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/about-us/sustainability">
                         <span>Sustainability</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -356,9 +344,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/about-us/sustainability/natural-disaster-relief-support">
                         <span>Disaster relief and support</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -370,9 +357,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/about-us/sustainability/nab-foundation">
                         <span>NAB Foundation</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -384,9 +370,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/about-us/sustainability/environment">
                         <span>Environment</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -398,9 +383,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/about-us/sustainability/customer-community-support">
                         <span>Customer and community support</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -412,9 +396,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/about-us/sustainability/reporting-policies-approach">
                         <span>Reporting, policies and approach</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -549,9 +532,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/about-us/corporate-governance">
                         <span>Corporate Governance</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -563,9 +545,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/about-us/corporate-governance/collecting-your-tax-information">
                         <span>Collecting your tax information</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -577,9 +558,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/about-us/corporate-governance/managing-financial-crime">
                         <span>Managing financial crime</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -591,9 +571,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/about-us/corporate-governance/code-of-conduct">
                         <span>National Australia Bank Ltd Code of Conduct</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -605,9 +584,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/about-us/corporate-governance/banking-code-of-practice">
                         <span>Banking Code of Practice</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -619,9 +597,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/about-us/corporate-governance/code-of-operation">
                         <span>Code of Operation</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -652,9 +629,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/about-us/shareholder-centre">
                         <span>Shareholder Centre</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -666,9 +642,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/about-us/shareholder-centre/asx-announcement">
                         <span>ASX announcements</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -680,9 +655,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/about-us/shareholder-centre/dividend-information">
                         <span>Dividend information</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -694,9 +668,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/about-us/shareholder-centre/financial-calendar">
                         <span>Financial calendar</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -708,9 +681,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/about-us/shareholder-centre/financial-disclosures-and-reporting">
                         <span>Financial disclosures and reporting</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -722,9 +694,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/about-us/shareholder-centre/annual-general-meetings">
                         <span>Annual General Meeting</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -736,9 +707,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/about-us/shareholder-centre/shareholder-enquiries">
                         <span>General shareholding enquiries</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -755,9 +725,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
         <a data-menulevel="2" data-menuitem-index="6" aria-expanded="false"
            class="mega-menu-anchor" href="/about-us/capital-and-funding">
             <span>Capital and funding</span>
-            <span aria-hidden="true">
+            
                                                             {@html ChevronRightSvg}
-                                                        </span>
         </a>
 
 
@@ -769,9 +738,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
         <a data-menulevel="2" data-menuitem-index="7" aria-expanded="false"
            class="mega-menu-anchor" href="/about-us/media">
             <span>Media</span>
-            <span aria-hidden="true">
+            
                                                             {@html ChevronRightSvg}
-                                                        </span>
         </a>
 
 
@@ -797,9 +765,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/about-us/more-than-money">
                         <span>More than money</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -811,9 +778,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/about-us/more-than-money/sponsorships">
                         <span>Our sponsorships</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -844,9 +810,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/about-us/accessibility-inclusion">
                         <span>Accessibility</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -858,9 +823,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/about-us/accessibility-inclusion/action-plan">
                         <span>Accessibility action plan</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -872,9 +836,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/about-us/accessibility-inclusion/banking-services">
                         <span>Branch, ATM and payments accessibility</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -886,9 +849,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/about-us/accessibility-inclusion/online-banking-features">
                         <span>Web accessibility</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -900,9 +862,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/about-us/accessibility-inclusion/mobile-banking-features">
                         <span>Mobile app accessibility</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>

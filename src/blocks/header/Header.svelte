@@ -106,14 +106,15 @@
 
                                         </li>
 
-                                        <li class="mega-menu-li navigation__item--level-1">
+                                        <li class="mega-menu-li navigation__item--level-1 {activeMenu === 'business' ? 'active' : ''}">
                                             <a href="#" class="mega-menu-anchor menu-trigger" aria-expanded="false"
+                                               on:click={(e) => openMenu(e, 'business')}
                                                data-menuitem="2">Business</a>
 
 
                                             {#if megaMenuBusinessComponent}
                                                 {#await megaMenuBusinessComponent then { default: MegaMenuBusiness }}
-                                                    <MegaMenuBusiness/>
+                                                    <MegaMenuBusiness isActive={activeMenu === 'business'}/>
                                                 {:catch error}
                                                     <p>Error loading component: {error.message}</p>
                                                 {/await}
@@ -121,40 +122,43 @@
 
                                         </li>
 
-                                        <li class="mega-menu-li navigation__item--level-1">
+                                        <li class="mega-menu-li navigation__item--level-1 {activeMenu === 'corporate' ? 'active' : ''}">
                                             <a href="#" class="mega-menu-anchor menu-trigger" aria-expanded="false"
+                                               on:click={(e) => openMenu(e, 'corporate')}
                                                data-menuitem="3">Corporate</a>
 
                                             {#if megaMenuCorporateComponent}
                                                 {#await megaMenuCorporateComponent then { default: MegaMenuCorporate }}
-                                                    <MegaMenuCorporate/>
+                                                    <MegaMenuCorporate isActive={activeMenu === 'corporate'}/>
                                                 {/await}
                                             {/if}
 
 
                                         </li>
 
-                                        <li class="mega-menu-li navigation__item--level-1">
+                                        <li class="mega-menu-li navigation__item--level-1 {activeMenu === 'about us' ? 'active' : ''}">
                                             <a href="#" class="mega-menu-anchor menu-trigger" aria-expanded="false"
+                                               on:click={(e) => openMenu(e, 'about us')}
                                                data-menuitem="4">About us</a>
 
 
                                             {#if megaMenuAboutUsComponent}
                                                 {#await megaMenuAboutUsComponent then { default: MegaMenuAboutUs }}
-                                                    <MegaMenuAboutUs/>
+                                                    <MegaMenuAboutUs isActive={activeMenu === 'about us'}/>
                                                 {/await}
                                             {/if}
 
                                         </li>
 
-                                        <li class="mega-menu-li navigation__item--level-1">
+                                        <li class="mega-menu-li navigation__item--level-1 {activeMenu === 'help' ? 'active' : ''}">
                                             <a href="#" class="mega-menu-anchor menu-trigger" aria-expanded="false"
+                                               on:click={(e) => openMenu(e, 'help')}
                                                data-menuitem="5">Help</a>
 
 
                                             {#if megaMenuHelpComponent}
                                                 {#await megaMenuHelpComponent then { default: MegaMenuHelp }}
-                                                    <MegaMenuHelp/>
+                                                    <MegaMenuHelp isActive={activeMenu === 'help'}/>
                                                 {/await}
                                             {/if}
 

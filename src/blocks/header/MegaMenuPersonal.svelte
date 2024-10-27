@@ -1,9 +1,9 @@
 <script>
-    import ChevronRightSvg from "@/assets/chevron-right.svg";
+    import ChevronRightSvg from "@/assets/chevron-right.svg?raw";
     const {isActive} = $props();
 </script>
 
-<ul data-type="mega-menu" class="dropdown mega-menu {isActive ? '' : 'hidden'}"
+<ul data-type="mega-menu" class="dropdown mega-menu {isActive ? 'active' : 'hidden'}"
     style="width: 1920px;">
     <li class="navigation__item--level-2 parent mega-menu-li">
 
@@ -11,9 +11,8 @@
         <a data-menulevel="2" data-menuitem-index="0" aria-expanded="false"
            class="mega-menu-anchor" href="/personal">
             <span>Personal home</span>
-            <span aria-hidden="true">
+           
                                                             {@html ChevronRightSvg}
-                                                        </span>
         </a>
 
     </li>
@@ -38,9 +37,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/bank-accounts">
                         <span>Bank accounts</span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -52,9 +50,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/bank-accounts/transaction-accounts">
                         <span>Transaction accounts</span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -66,9 +63,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/bank-accounts/savings-accounts">
                         <span>Savings accounts</span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -80,9 +76,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/bank-accounts/debit-cards">
                         <span>Visa Debit cards</span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -94,9 +89,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/bank-accounts/nab-term-deposit">
                         <span>Term Deposit</span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -108,9 +102,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/bank-accounts/joint-accounts">
                         <span>Joint bank accounts</span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -127,9 +120,8 @@
         <a data-menulevel="2" data-menuitem-index="2" aria-expanded="false"
            class="mega-menu-anchor" href="/personal/buy-now-pay-later">
             <span>Buy now pay later</span>
-            <span aria-hidden="true">
+           
                                                             {@html ChevronRightSvg}
-                                                        </span>
         </a>
 
 
@@ -155,9 +147,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/credit-cards">
                         <span>Credit cards</span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -169,9 +160,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/credit-cards/nab-straightup-card">
                         <span>NAB StraightUp Card</span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -183,9 +173,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/credit-cards/nab-low-rate-card">
                         <span>NAB Low Rate Credit Card</span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -197,9 +186,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/credit-cards/low-fee-cards">
                         <span>NAB low fee credit card</span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -211,9 +199,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/credit-cards/qantas-rewards">
                         <span>NAB Qantas Rewards credit cards</span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -225,9 +212,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/credit-cards/nab-rewards-cards">
                         <span>NAB Rewards credit cards</span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -398,9 +384,8 @@
         <a data-menulevel="2" data-menuitem-index="4" aria-expanded="false"
            class="mega-menu-anchor" href="/personal/personal-loans">
             <span>Personal loans</span>
-            <span aria-hidden="true">
+           
                                                             {@html ChevronRightSvg}
-                                                        </span>
         </a>
 
 
@@ -426,9 +411,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/home-loans">
                         <span>Home loans</span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -440,9 +424,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/home-loans/nab-base-variable-rate-home-loan">
                         <span>Basic variable rate</span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -454,12 +437,10 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/home-loans/nab-variable-rate-offset-home-loan">
                         <span>Tailored variable rate with offset</span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -471,9 +452,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/home-loans/nab-fixed-rate-home-loan">
                         <span>Tailored fixed rate</span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -745,9 +725,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/online-banking">
                         <span>Online banking</span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -759,9 +738,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/online-banking/nab-internet-banking">
                         <span>NAB Internet Banking</span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -773,9 +751,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/online-banking/digital-payments">
                         <span>Digital payments</span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -787,9 +764,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/online-banking/mobile-banking-app">
                         <span>The NAB app</span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -801,9 +777,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/online-banking/fast-payments">
                         <span>Fast Payments guide</span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -834,9 +809,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/private-wealth">
                         <span>Private Wealth</span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -848,9 +822,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/private-wealth/tailored-solutions">
                         <span>Banking solutions</span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -862,9 +835,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/private-wealth/investment-solutions">
                         <span>Investment solutions</span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -876,9 +848,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/private-wealth/advice-solutions">
                         <span>Advice solutions</span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -890,9 +861,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/private-wealth/our-clients">
                         <span>Our clients</span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -904,9 +874,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/private-wealth/what-is-private-banking">
                         <span>Private banking</span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -1045,9 +1014,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/super-and-investments">
                         <span>Super and investments</span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -1059,9 +1027,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/super-and-investments/financial-advice">
                         <span>Financial advice</span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -1073,9 +1040,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/super-and-investments/investment-lending">
                         <span>Investment lending</span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -1087,9 +1053,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/super-and-investments/self-managed-super-fund">
                         <span>Self Managed Super Funds (SMSF)</span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -1101,9 +1066,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/super-and-investments/cash-management">
                         <span>Cash management</span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -1115,9 +1079,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/super-and-investments/online-investing">
                         <span>Online investing - nabtrade</span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -1147,9 +1110,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/insurance">
                         <span>Insurance</span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -1161,9 +1123,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/insurance/home-contents">
                         <span>Home and Contents Insurance</span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -1175,9 +1136,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/insurance/landlord">
                         <span>Landlord Insurance</span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -1189,9 +1149,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/insurance/car">
                         <span>Car Insurance </span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -1203,9 +1162,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/insurance/caravan-trailer">
                         <span>Caravan and trailer insurance</span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -1217,9 +1175,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/insurance/complimentary-card-insurances">
                         <span>Complimentary card insurances</span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -1250,9 +1207,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/international-banking">
                         <span>International banking</span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -1264,9 +1220,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/international-banking/foreign-exchange-rates">
                         <span>Foreign exchange calculator and rates</span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -1278,9 +1233,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/international-banking/transfer-money-overseas">
                         <span>Transfer money overseas</span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -1292,9 +1246,8 @@
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/personal/international-banking/international-transaction-fee">
                         <span>International transaction fees on your card explained</span>
-                        <span aria-hidden="true">
+                       
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>

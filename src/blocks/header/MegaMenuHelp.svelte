@@ -1,8 +1,10 @@
 <script>
-import ChevronRightSvg from "@/assets/chevron-right.svg";
+    import ChevronRightSvg from "@/assets/chevron-right.svg?raw";
+    const {isActive} = $props();
+
 </script>
 
-<ul data-type="mega-menu" class="dropdown mega-menu hidden"
+<ul data-type="mega-menu" class="dropdown mega-menu {isActive ? 'active' : 'hidden'}"
     style="width: 1920px;">
     <li class="navigation__item--level-2 parent mega-menu-li">
 
@@ -10,9 +12,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
         <a data-menulevel="2" data-menuitem-index="0" aria-expanded="false"
            class="mega-menu-anchor" href="/help-support">
             <span>Help</span>
-            <span aria-hidden="true">
+            
                                                             {@html ChevronRightSvg}
-                                                        </span>
         </a>
 
     </li>
@@ -37,9 +38,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/help-support/personal-banking">
                         <span>Help with personal banking</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -51,9 +51,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/help-support/personal-banking/manage-online-banking">
                         <span>Online banking support</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -65,9 +64,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/help-support/personal-banking/manage-cards">
                         <span>Credit and debit card support</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -79,9 +77,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/help-support/personal-banking/manage-home-loan">
                         <span>Home loan support</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -93,9 +90,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/help-support/personal-banking/manage-personal-loans">
                         <span>Personal loan support</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -107,9 +103,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/help-support/personal-banking/manage-rollover">
                         <span>Term deposit support</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -121,9 +116,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/help-support/personal-banking/manage-payments-transfers">
                         <span>Payments and transfers support</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -298,9 +292,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/help-support/business-banking">
                         <span>Help with business banking</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -312,9 +305,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/help-support/business-banking/manage-business-cards">
                         <span>Business credit card support</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -456,9 +448,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
            class="mega-menu-anchor"
            href="/help-support/better-ways-to-bank">
             <span>Ways to bank with us</span>
-            <span aria-hidden="true">
+            
                                                             {@html ChevronRightSvg}
-                                                        </span>
         </a>
 
 
@@ -471,9 +462,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
            class="mega-menu-anchor"
            href="/help-support/financial-wellbeing">
             <span>Financial wellbeing</span>
-            <span aria-hidden="true">
+            
                                                             {@html ChevronRightSvg}
-                                                        </span>
         </a>
 
 
@@ -499,9 +489,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/help-support/financial-hardship">
                         <span>Financial assistance</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -513,9 +502,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/help-support/financial-hardship/home-loan">
                         <span>Home loan repayment support</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -527,9 +515,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/help-support/financial-hardship/credit-card-personal-loan">
                         <span>Credit card or personal loan support</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -541,9 +528,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/help-support/financial-hardship/business">
                         <span>Business financial hardship</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
@@ -555,9 +541,8 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
                        aria-expanded="false" class="mega-menu-anchor"
                        href="/help-support/financial-hardship/support-services">
                         <span>Extra care support services</span>
-                        <span aria-hidden="true">
+                        
                                                                         {@html ChevronRightSvg}
-                                                                    </span>
                     </a>
 
                 </li>
