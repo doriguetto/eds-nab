@@ -6,6 +6,7 @@
     import {onMount} from "svelte";
 
     let isSearchOpen = $state(false);
+    let activeMenu = $state('');
     let mainNavContainerComponent;
     let notificationsComponent
     let mainLoginContainerComponent;
@@ -21,17 +22,22 @@
         isSearchOpen = !isSearchOpen;
     }
 
-    onMount(() => {
+    const openMenu = (e: MouseEvent, menu: string) => {
+        e.preventDefault();
+        e.stopPropagation();
+        activeMenu = activeMenu === menu? '' : menu;
+    }
+
+    // onMount(async () => {
         mainNavContainerComponent = import('./MainNavContainer.svelte')
         notificationsComponent = import('./Notifications.svelte')
         mainLoginContainerComponent = import('./MainLoginContainer.svelte')
-
         megaMenuPersonalComponent = import('./MegaMenuPersonal.svelte')
         megaMenuBusinessComponent = import('./MegaMenuBusiness.svelte')
         megaMenuCorporateComponent = import('./MegaMenuCorporate.svelte')
         megaMenuAboutUsComponent = import('./MegaMenuAboutUs.svelte')
         megaMenuHelpComponent = import('./MegaMenuHelp.svelte')
-    })
+    // })
 
 </script>
 
@@ -87,14 +93,14 @@
                                      itemtype="http://schema.org/SiteNavigationElement">
 
                                     <ul>
-                                        <li class="mega-menu-li navigation__item--level-1 active">
+                                        <li class="mega-menu-li navigation__item--level-1 {activeMenu === 'personal' ? 'active' : ''}">
                                             <a href="#" class="mega-menu-anchor menu-trigger" aria-expanded="false"
+                                               on:click={(e) => openMenu(e, 'personal')}
                                                data-menuitem="1">Personal</a>
-
 
                                             {#if megaMenuPersonalComponent}
                                                 {#await megaMenuPersonalComponent then { default: MegaMenuPersonal }}
-                                                    <MegaMenuPersonal/>
+                                                    <MegaMenuPersonal isActive={activeMenu === 'personal'}/>
                                                 {/await}
                                             {/if}
 
@@ -108,6 +114,8 @@
                                             {#if megaMenuBusinessComponent}
                                                 {#await megaMenuBusinessComponent then { default: MegaMenuBusiness }}
                                                     <MegaMenuBusiness/>
+                                                {:catch error}
+                                                    <p>Error loading component: {error.message}</p>
                                                 {/await}
                                             {/if}
 

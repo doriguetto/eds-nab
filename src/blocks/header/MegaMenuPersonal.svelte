@@ -1,8 +1,9 @@
 <script>
-import ChevronRightSvg from "@/assets/chevron-right.svg";
+    import ChevronRightSvg from "@/assets/chevron-right.svg";
+    const {isActive} = $props();
 </script>
 
-<ul data-type="mega-menu" class="dropdown mega-menu hidden"
+<ul data-type="mega-menu" class="dropdown mega-menu {isActive ? '' : 'hidden'}"
     style="width: 1920px;">
     <li class="navigation__item--level-2 parent mega-menu-li">
 
@@ -267,11 +268,14 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
 
                                                                                                                 <div class="badge nab-badge--red">
                                                                                                         <div class="nab-badge">
-                                                                                                            <span class="nab-badge__icon" aria-hidden="true">
+                                                                                                            <span class="nab-badge__icon"
+                                                                                                                  aria-hidden="true">
                                                                                                                 <use xlink:href="#icon-favourite-fill">
                                                                                                                 </use>
                                                                                                             </span>
-                                                                                                            <span class="nab-badge__text" aria-label="Offer" role="text">Offer</span>
+                                                                                                            <span class="nab-badge__text"
+                                                                                                                  aria-label="Offer"
+                                                                                                                  role="text">Offer</span>
                                                                                                         </div>
 
 
