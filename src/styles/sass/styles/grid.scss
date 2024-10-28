@@ -113,6 +113,70 @@
   }
 }
 
+.responsivegrid .grid.grid--12>.gridColumn.gridColumn--default--5 {
+  grid-column-end: span 5;
+}
+
+.responsivegrid .grid.grid--12>.gridColumn.gridColumn--default--5.gridColumn.gridColumn--offset--default--1 {
+  grid-column-end: span 6;
+  margin-left: calc(16.66667% + 5.33333px)
+}
+
+.responsivegrid .grid.grid--12>.gridColumn.gridColumn--default--5.gridColumn.gridColumn--offset--default--2 {
+  grid-column-end: span 7;
+  margin-left: calc(28.57143% + 9.14286px)
+}
+
+.responsivegrid .grid.grid--12>.gridColumn.gridColumn--default--5.gridColumn.gridColumn--offset--default--3 {
+  grid-column-end: span 8;
+  margin-left: calc(37.5% + 12px)
+}
+
+.responsivegrid .grid.grid--12>.gridColumn.gridColumn--default--5.gridColumn.gridColumn--offset--default--4 {
+  grid-column-end: span 9;
+  margin-left: calc(44.44444% + 14.22222px)
+}
+
+.responsivegrid .grid.grid--12>.gridColumn.gridColumn--default--5.gridColumn.gridColumn--offset--default--5 {
+  grid-column-end: span 10;
+  margin-left: calc(50% + 16px)
+}
+
+.responsivegrid .grid.grid--12>.gridColumn.gridColumn--default--5.gridColumn.gridColumn--offset--default--6 {
+  grid-column-end: span 11;
+  margin-left: calc(54.54545% + 17.45455px)
+}
+
+.responsivegrid .grid.grid--12>.gridColumn.gridColumn--default--5.gridColumn.gridColumn--offset--default--7 {
+  grid-column-end: span 12;
+  margin-left: calc(58.33333% + 18.66667px)
+}
+
+.responsivegrid .grid.grid--12>.gridColumn.gridColumn--default--5.gridColumn.gridColumn--offset--default--8 {
+  grid-column-end: span 13;
+  margin-left: calc(61.53846% + 19.69231px)
+}
+
+.responsivegrid .grid.grid--12>.gridColumn.gridColumn--default--5.gridColumn.gridColumn--offset--default--9 {
+  grid-column-end: span 14;
+  margin-left: calc(64.28571% + 20.57143px)
+}
+
+.responsivegrid .grid.grid--12>.gridColumn.gridColumn--default--5.gridColumn.gridColumn--offset--default--10 {
+  grid-column-end: span 15;
+  margin-left: calc(66.66667% + 21.33333px)
+}
+
+.responsivegrid .grid.grid--12>.gridColumn.gridColumn--default--5.gridColumn.gridColumn--offset--default--11 {
+  grid-column-end: span 16;
+  margin-left: calc(68.75% + 22px)
+}
+
+.responsivegrid .grid.grid--12>.gridColumn.gridColumn--default--5.responsivegrid--fixed {
+  grid-column-end: span 12
+}
+
+
 .responsivegrid.responsivegrid--fixed {
   float: none;
   clear: both;
