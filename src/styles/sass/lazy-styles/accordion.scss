@@ -652,3 +652,37 @@
 .nab-accordion--link-list .accordion-link-list .nab-accordion__button {
   padding: 12px 16px 12px 0
 }
+
+
+@media(min-width: 992px) {
+  .nab-accordion--flex-column .nab-accordion,.nab-accordion--link-list .nab-accordion {
+    margin:0;
+    padding: 0
+  }
+
+  #supports.js .nab-accordion--flex-column .nab-accordion--no-touch .nab-accordion__button,#supports.js .nab-accordion--link-list .nab-accordion--no-touch .nab-accordion__button {
+    pointer-events: none
+  }
+
+  .nab-accordion--flex-column .nab-accordion__panel,.nab-accordion--link-list .nab-accordion__panel {
+    margin: 0;
+    padding: 0
+  }
+
+  .nab-accordion--flex-column .nab-accordion__button,.nab-accordion--link-list .nab-accordion__button {
+    padding: 16px 0
+  }
+
+  .nab-accordion--flex-column .nab-accordion__item,.nab-accordion--link-list .nab-accordion__item {
+    padding: 0 8px;
+    border: none
+  }
+
+  .nab-accordion--flex-column .nab-accordion__item:first-child,.nab-accordion--link-list .nab-accordion__item:first-child {
+    padding-left: 0
+  }
+
+  .nab-accordion--flex-column .nab-accordion__item:last-child,.nab-accordion--link-list .nab-accordion__item:last-child {
+    padding-right: 0
+  }
+}
