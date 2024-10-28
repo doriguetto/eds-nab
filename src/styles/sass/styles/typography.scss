@@ -852,3 +852,14 @@ template {
 [hidden] {
   display: none;
 }
+
+@media (min-width: 1328px) {
+  .cmp-title--h1-appearance .cmp-title__heading h2 {
+    font-size: 3rem;
+    line-height: 3.375rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 0 18px 0;
+  }
+}
