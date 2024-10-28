@@ -1,3 +1,34 @@
+<script lang="ts" context="module">
+    export type BannerProps = {
+        pictureEl: HTMLPictureElement | null | undefined;
+    };
+</script>
+
+<script lang="ts">
+    import Image from "Blocks/banner/Image.svelte";
+
+    const { pictureEl }: BannerProps = $props();
+    let img;
+
+    if (pictureEl) {
+        img = {
+            pictureEl,
+            preload: true,
+            breakpoints: [
+                // {media: '(max-width: 800px)', width: '650'},
+                // {media: '(max-width: 1140px)', width: '1150'},
+                // {media: '(max-width: 3000px)', width: '1593'},
+                // {media: '(min-width: 3001px)', width: '2048'},
+
+
+                {media: '(max-width: 768px)', width: '960'},
+                {media: '(max-width: 960px)', width: '1536'},
+            ]
+        }
+    }
+
+</script>
+
 <div class="banner-entry container responsivegrid aem-GridColumn aem-GridColumn--default--12 at-element-marker">
 
     <div class="container">
@@ -19,17 +50,12 @@
                                 <div class="nab-banner nab-banner--image" data-analytics-internal-promo="MH24040-P">
                                     <div class="nab-banner--background-image">
                                         <div class="image">
-                                            <div>
 
-                                                <img class="cmp-image__image" itemprop="contentUrl" data-cmp-hook-image="image" alt="" src="/public/three-people-outside-house-banner-3000x1000.jpeg">
-
+<!--                                                <img class="cmp-image__image" itemprop="contentUrl" data-cmp-hook-image="image" alt="" src="/public/three-people-outside-house-banner-3000x1000.jpeg">-->
+                                                <Image {...img} />
 
 
                                             </div>
-
-
-
-                                        </div>
 
                                     </div>
                                     <div class="responsivegrid responsivegrid--fixed responsivegrid--gutters">

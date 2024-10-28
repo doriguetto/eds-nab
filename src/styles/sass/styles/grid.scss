@@ -801,3 +801,89 @@
   width: 24px;
   height: 24px
 }
+
+.cmp-image__image {
+  width: 100%;
+}
+
+.nab-button--large.nab-button--apply .nab-button,.nab-button--large.nab-button--primary .nab-button {
+  padding-top: 10px;
+  padding-bottom: 10px
+}
+
+.nab-button--large.nab-button--alternate .nab-button,.nab-button--large.nab-button--secondary .nab-button {
+  padding-top: 8px;
+  padding-bottom: 8px
+}
+
+.nab-button--large .nab-button {
+  min-height: 48px;
+  padding: 12px 24px;
+  line-height: 1.5rem
+}
+
+.nab-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  background-color: transparent;
+  border-radius: 4px;
+  box-shadow: none;
+  transition-timing-function: ease-in;
+  transition-duration: .2s;
+  transition-property: box-shadow,border-color,background-color,color,fill
+}
+
+
+.nab-button--primary .nab-button {
+  min-width: 128px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  background-color: #c20000;
+  border: 1px solid #c20000
+}
+
+.nab-button--primary .nab-button:active,.nab-button--primary .nab-button:focus {
+  border-radius: 4px;
+  box-shadow: 0 0 0 3px rgba(143,0,0,.65)
+}
+
+.nab-button--primary .nab-button:focus {
+  outline: 3px solid transparent
+}
+
+.nab-button--primary .nab-button:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #8f0000;
+  border: 1px solid #8f0000
+}
+
+.nab-button--primary .nab-button:hover span {
+  text-decoration: underline
+}
+
+.nab-button--primary .nab-button:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: #8f0000;
+  border: 1px solid #8f0000
+}
+
+.nab-button--primary .nab-button:focus span {
+  text-decoration: underline
+}
+
+.nab-button--primary .nab-button:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #750000;
+  border: 1px solid #750000
+}
+
+.nab-button--primary .nab-button:active span {
+  text-decoration: underline
+}

@@ -1,0 +1,2 @@
+import{B as m,x as d,A as n,L as c,I as f,a0 as u,aA as v,az as g,aD as h,y,aE as b,C as p,Y as R}from"./template.lQmNzb9l.js";function D(o,_,w,A,k){var i=o,r="",e;m(()=>{if(r===(r=_()??"")){d&&n();return}e!==void 0&&(R(e),e=void 0),r!==""&&(e=c(()=>{if(d){f.data;for(var a=n(),t=a;a!==null&&(a.nodeType!==8||a.data!=="");)t=a,a=u(a);if(a===null)throw v(),g;h(f,t),i=y(a);return}var l=r+"",s=b(l);h(p(s),s.lastChild),i.before(s)}))})}export{D as h};
+//# sourceMappingURL=html.Cq8hCEtU.js.map
