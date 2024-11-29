@@ -72,19 +72,17 @@
 
                                             </div>
                                             </div>
-                                            <h3 class="nab-accordion__button_header">
-                                                <button id="nab-button-157570625-0" aria-controls="nab-panel-157570625-0" aria-expanded="true" aria-disabled="true" class="nab-accordion__button" tabindex="-1">
-                        <span class="nab-accordion__title__header">
-                             <svg class="nab-accordion__title__icon" focusable="false" aria-hidden="true">
-                                <use xlink:href="#icon-home-loan"></use>
-                            </svg>
-                            <span class="nab-accordion__title__description">Home loans</span>
-                        </span>
-                                                    <span class="nab-accordion__icon nab-accordion__icon--up">
-                            {@html ChevronDownSvg}
-                        </span>
-                                                </button>
-                                            </h3>
+<!--                                            <h3 class="nab-accordion__button_header">-->
+<!--                                                <button id="nab-button-157570625-0" aria-controls="nab-panel-157570625-0" aria-expanded="true" aria-disabled="true" class="nab-accordion__button" tabindex="-1">-->
+<!--                        <span class="nab-accordion__title__header">-->
+<!--                             <span class="nab-accordion__title__icon" >-->
+<!--                                {@html HomeLoanSvg}-->
+<!--                            </span>-->
+<!--                            <span class="nab-accordion__title__description">Home loans</span>-->
+<!--                        </span>-->
+
+<!--                                                </button>-->
+<!--                                            </h3>-->
                                             <section id="nab-panel-157570625-0" data-nab-hook-accordion="panel" class="nab-accordion__panel"><div class="link-list list nab-link-list--mobile-link"><div class="nab-link-list nab-link-list--segmented-links-stacked-xs">
                                                 <ul class="cmp-list">
                                                     <li class="cmp-list__item">
@@ -160,19 +158,19 @@
 
                                         </div>
                                         </div>
-                                        <h3 class="nab-accordion__button_header">
-                                            <button id="nab-button-157570625-1" aria-controls="nab-panel-157570625-1" aria-expanded="true" aria-disabled="true" class="nab-accordion__button" tabindex="-1">
-                        <span class="nab-accordion__title__header">
-                             <svg class="nab-accordion__title__icon" focusable="false" aria-hidden="true">
-                                <use xlink:href="#icon-cards"></use>
-                            </svg>
-                            <span class="nab-accordion__title__description">Credit cards</span>
-                        </span>
-                                                <span class="nab-accordion__icon nab-accordion__icon--up">
-                             {@html ChevronDownSvg}
-                        </span>
-                                            </button>
-                                        </h3>
+<!--                                        <h3 class="nab-accordion__button_header">-->
+<!--                                            <button id="nab-button-157570625-1" aria-controls="nab-panel-157570625-1" aria-expanded="true" aria-disabled="true" class="nab-accordion__button" tabindex="-1">-->
+<!--                        <span class="nab-accordion__title__header">-->
+<!--                             <svg class="nab-accordion__title__icon" focusable="false" aria-hidden="true">-->
+<!--                                <use xlink:href="#icon-cards"></use>-->
+<!--                            </svg>-->
+<!--                            <span class="nab-accordion__title__description">Credit cards</span>-->
+<!--                        </span>-->
+<!--                                                <span class="nab-accordion__icon nab-accordion__icon&#45;&#45;up">-->
+<!--                             {@html ChevronDownSvg}-->
+<!--                        </span>-->
+<!--                                            </button>-->
+<!--                                        </h3>-->
                                         <section id="nab-panel-157570625-1" data-nab-hook-accordion="panel" class="nab-accordion__panel"><div class="link-list list nab-link-list--mobile-link"><div class="nab-link-list nab-link-list--segmented-links-stacked-xs">
                                             <ul class="cmp-list">
                                                 <li class="cmp-list__item">
@@ -248,19 +246,19 @@
 
                                         </div>
                                         </div>
-                                        <h3 class="nab-accordion__button_header">
-                                            <button id="nab-button-157570625-2" aria-controls="nab-panel-157570625-2" aria-expanded="true" aria-disabled="true" class="nab-accordion__button" tabindex="-1">
-                        <span class="nab-accordion__title__header">
-                             <svg class="nab-accordion__title__icon" focusable="false" aria-hidden="true">
-                                <use xlink:href="#icon-transaction-account"></use>
-                            </svg>
-                            <span class="nab-accordion__title__description">Bank accounts</span>
-                        </span>
-                                                <span class="nab-accordion__icon nab-accordion__icon--up">
-                             {@html ChevronRightSvg}
-                        </span>
-                                            </button>
-                                        </h3>
+<!--                                        <h3 class="nab-accordion__button_header">-->
+<!--                                            <button id="nab-button-157570625-2" aria-controls="nab-panel-157570625-2" aria-expanded="true" aria-disabled="true" class="nab-accordion__button" tabindex="-1">-->
+<!--                        <span class="nab-accordion__title__header">-->
+<!--                             <svg class="nab-accordion__title__icon" focusable="false" aria-hidden="true">-->
+<!--                                <use xlink:href="#icon-transaction-account"></use>-->
+<!--                            </svg>-->
+<!--                            <span class="nab-accordion__title__description">Bank accounts</span>-->
+<!--                        </span>-->
+<!--                                                <span class="nab-accordion__icon nab-accordion__icon&#45;&#45;up">-->
+<!--                             {@html ChevronRightSvg}-->
+<!--                        </span>-->
+<!--                                            </button>-->
+<!--                                        </h3>-->
                                         <section id="nab-panel-157570625-2" data-nab-hook-accordion="panel" class="nab-accordion__panel"><div class="link-list list nab-link-list--mobile-link"><div class="nab-link-list nab-link-list--segmented-links-stacked-xs">
                                             <ul class="cmp-list">
                                                 <li class="cmp-list__item">
@@ -336,19 +334,19 @@
 
                                         </div>
                                         </div>
-                                        <h3 class="nab-accordion__button_header">
-                                            <button id="nab-button-157570625-3" aria-controls="nab-panel-157570625-3" aria-expanded="true" aria-disabled="true" class="nab-accordion__button" tabindex="-1">
-                        <span class="nab-accordion__title__header">
-                             <svg class="nab-accordion__title__icon" focusable="false" aria-hidden="true">
-                                <use xlink:href="#icon-personal-loan"></use>
-                            </svg>
-                            <span class="nab-accordion__title__description">Personal loans</span>
-                        </span>
-                                                <span class="nab-accordion__icon nab-accordion__icon--up">
-                             {@html ChevronDownSvg}
-                        </span>
-                                            </button>
-                                        </h3>
+<!--                                        <h3 class="nab-accordion__button_header">-->
+<!--                                            <button id="nab-button-157570625-3" aria-controls="nab-panel-157570625-3" aria-expanded="true" aria-disabled="true" class="nab-accordion__button" tabindex="-1">-->
+<!--                        <span class="nab-accordion__title__header">-->
+<!--                             <svg class="nab-accordion__title__icon" focusable="false" aria-hidden="true">-->
+<!--                                <use xlink:href="#icon-personal-loan"></use>-->
+<!--                            </svg>-->
+<!--                            <span class="nab-accordion__title__description">Personal loans</span>-->
+<!--                        </span>-->
+<!--                                                <span class="nab-accordion__icon nab-accordion__icon&#45;&#45;up">-->
+<!--                             {@html ChevronDownSvg}-->
+<!--                        </span>-->
+<!--                                            </button>-->
+<!--                                        </h3>-->
                                         <section id="nab-panel-157570625-3" data-nab-hook-accordion="panel" class="nab-accordion__panel"><div class="link-list list nab-link-list--mobile-link"><div class="nab-link-list nab-link-list--segmented-links-stacked-xs">
                                             <ul class="cmp-list">
                                                 <li class="cmp-list__item">
