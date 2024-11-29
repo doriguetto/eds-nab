@@ -1,6 +1,9 @@
 <script lang="ts">
     import FavouriteFillSvg from '@/assets/favourite-fill.svg?raw';
     import ChevronRightSvg from "@/assets/chevron-right.svg?raw";
+    import IconClockSvg from "@/assets/icon-clock.svg?raw";
+    import IconSuccessOutlineSvg from "@/assets/icon-success-outline.svg?raw";
+
 </script>
 
 <div class="experiencefragment aem-GridColumn aem-GridColumn--default--12">
@@ -277,9 +280,9 @@
                                                         <ul itemscope="" itemtype="https://schema.org/itemList" role="list" class="nab-list__list nab-list__list--icon">
                                                             <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="nab-list__item">
 
-                                                                <svg aria-hidden="true" focusable="false" class="nab-list__item-icon service-icon--emerald">
-                                                                    <use xlink:href="#icon-success-outline"></use>
-                                                                </svg>
+                                                                <span class="nab-list__item-icon service-icon--emerald">
+                                                                    {@html IconSuccessOutlineSvg}
+                                                                </span>
 
                                                                 <meta itemprop="position" content="1">
                                                                 <span itemprop="name"><div class="0 text parbase"><div class="nab-text">
@@ -295,9 +298,9 @@
 
                                                             <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="nab-list__item">
 
-                                                                <svg aria-hidden="true" focusable="false" class="nab-list__item-icon service-icon--emerald">
-                                                                    <use xlink:href="#icon-success-outline"></use>
-                                                                </svg>
+                                                                <span class="nab-list__item-icon service-icon--emerald">
+                                                                    {@html IconSuccessOutlineSvg}
+                                                                </span>
 
                                                                 <meta itemprop="position" content="2">
                                                                 <span itemprop="name"><div class="1 text parbase"><div class="nab-text">
@@ -312,10 +315,10 @@
                                                             </li>
 
                                                             <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="nab-list__item">
+                                                                <span class="nab-list__item-icon service-icon--emerald">
 
-                                                                <svg aria-hidden="true" focusable="false" class="nab-list__item-icon service-icon--emerald">
-                                                                    <use xlink:href="#icon-success-outline"></use>
-                                                                </svg>
+                                                                {@html IconSuccessOutlineSvg}
+                                                                </span>
 
                                                                 <meta itemprop="position" content="3">
                                                                 <span itemprop="name"><div class="2 text parbase"><div class="nab-text">
@@ -343,10 +346,10 @@
 
 
                                                                 <div class="nab-action-info">
-                                                                    <svg aria-hidden="true" focusable="false" class="icon nab-action-info__icon">
-                                                                        <use xlink:href="#icon-clock">
-                                                                        </use>
-                                                                    </svg>
+                                                                    <span class="icon nab-action-info__icon">
+                                                                        {@html IconClockSvg}
+
+                                                                    </span>
                                                                     <span class="nab-action-info__text">Open in less than 5 minutes.</span>
                                                                 </div>
 
@@ -384,9 +387,7 @@
 
 
 
-                                                                    <svg class="nab-button__icon--right" aria-hidden="true" focusable="false">
-                                                                        <use xlink:href="#icon-chevron-right"></use>
-                                                                    </svg>
+                                                                    {@html ChevronRightSvg}
 
                                                                 </a>
 

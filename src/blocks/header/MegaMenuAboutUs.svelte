@@ -121,24 +121,6 @@
                                     <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
 
                                         <div class="image aem-GridColumn aem-GridColumn--default--12">
-                                            <div data-cmp-lazythreshold="0"
-                                                 data-cmp-src="/content/experience-fragments/nab/en/mega-menu-widget/support_and_services/security/improve-your-cyber-security/master/_jcr_content/root/responsivegrid/section_container/image.coreimg.95.jpeg/1725848435845/nab-scam-awareness-pattern-banner-2400x800.jpeg"
-                                                 data-cmp-widths="512,1024,1280,1440,1920,2048"
-                                                 data-asset="/content/dam/nabrwd/images/types/banners/nab-scam-awareness-pattern-banner-2400x800.jpg"
-                                                 data-asset-id="f846356c-1212-480a-b4a4-4e9036637153"
-                                                 id="image-fb788d9b13"
-                                                 class="cmp-image"
-
-                                                 itemtype="http://schema.org/ImageObject">
-
-                                                <img class="cmp-image__image"
-                                                     itemprop="contentUrl"
-                                                     data-cmp-hook-image="image"
-                                                     alt=""
-                                                     src="/content/experience-fragments/nab/en/mega-menu-widget/support_and_services/security/improve-your-cyber-security/master/_jcr_content/root/responsivegrid/section_container/image.coreimg.95.512.jpeg/1725848435845/nab-scam-awareness-pattern-banner-2400x800.jpeg">
-
-
-                                            </div>
 
 
                                         </div>

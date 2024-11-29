@@ -1,6 +1,7 @@
 <script>
 import CloseSvg from "@/assets/close.svg";
 import ChevronRightSvg from "@/assets/chevron-right.svg";
+import NabAppLogo from "@/assets/nab-app-logo-283x283.png";
 </script>
 
 <section aria-label="Notification: ">
@@ -28,7 +29,7 @@ import ChevronRightSvg from "@/assets/chevron-right.svg";
 
                 <div class="notification" data-analytics-internal-promo="23068" data-next-prompt-days="180" data-percentage="100" data-prompt-delay-seconds="5" id="notification-app-prompt" data-ios-app-path="https://apps.apple.com/au/app/nab/id373434223" data-android-app-path="https://play.google.com/store/apps/details?id=au.com.nab.mobile&amp;hl=en">
                     <div class="notification__icon">
-                        <img alt="NAB App Image" src="/content/dam/nab/images/types/logos/nab-app-logo-283x283.png">
+                        <img alt="NAB App Image" src="{NabAppLogo}">
                     </div>
                     <div class="notification__body">
                         <span class="sr-only">Notification:</span>

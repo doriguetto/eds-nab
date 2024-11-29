@@ -229,4 +229,26 @@
   .nab-button__icon--right {
     margin-left: 8px
   }
+
+
+  .nab-link-list--mobile-link .cmp-list__item:hover, .nab-link-list--text-links .cmp-list__item:hover {
+    background: #e6e6e6;
+    border-color: #000;
+
+    & svg {
+      transform: translateX(0);
+      fill: #000;
+    }
+  }
+
+  .nab-link-list--mobile-link svg,.nab-link-list--text-links svg {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 8px;
+    transform: translateX(-4px);
+    transition: transform .3s;
+    fill: #c20000;
+
+  }
 }

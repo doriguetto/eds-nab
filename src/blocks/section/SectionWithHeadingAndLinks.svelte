@@ -3,6 +3,8 @@
     import CardsSvg from '../../assets/cards.svg?raw';
     import PersonalLoanSvg from '../../assets/personal-loan.svg?raw';
     import TransactionAccountSvg from '../../assets/transaction-account.svg?raw';
+    import ChevronRightSvg from "../../assets/chevron-right.svg?raw";
+    import ChevronDownSvg from "../../assets/chevron-down.svg?raw";
 
 </script>
 <div class="responsivegrid responsivegrid--fixed responsivegrid--gutters-col responsivegrid--gutters-row aem-GridColumn aem-GridColumn--default--12">
@@ -79,9 +81,7 @@
                             <span class="nab-accordion__title__description">Home loans</span>
                         </span>
                                                     <span class="nab-accordion__icon nab-accordion__icon--up">
-                            <svg focusable="false" aria-hidden="true">
-                                <use xlink:href="#icon-chevron-down"></use>
-                            </svg>
+                            {@html ChevronDownSvg}
                         </span>
                                                 </button>
                                             </h3>
@@ -93,9 +93,7 @@
                                                             <span class="cmp-list__item-title">Book an appointment</span>
 
 
-                                                            <svg class="cmp-list__item-icon" aria-hidden="true" focusable="false">
-                                                                <use xlink:href="#icon-chevron-right"></use>
-                                                            </svg>
+                                                            {@html ChevronRightSvg}
                                                         </a>
 
                                                     </li>
@@ -106,9 +104,7 @@
                                                             <span class="cmp-list__item-title">Offers</span>
 
 
-                                                            <svg class="cmp-list__item-icon" aria-hidden="true" focusable="false">
-                                                                <use xlink:href="#icon-chevron-right"></use>
-                                                            </svg>
+                                                            {@html ChevronRightSvg}
                                                         </a>
 
                                                     </li>
@@ -118,10 +114,8 @@
 
                                                             <span class="cmp-list__item-title">How much can I borrow?</span>
 
+                                                            {@html ChevronRightSvg}
 
-                                                            <svg class="cmp-list__item-icon" aria-hidden="true" focusable="false">
-                                                                <use xlink:href="#icon-chevron-right"></use>
-                                                            </svg>
                                                         </a>
 
                                                     </li>
@@ -132,9 +126,7 @@
                                                             <span class="cmp-list__item-title">View all home loans</span>
 
 
-                                                            <svg class="cmp-list__item-icon" aria-hidden="true" focusable="false">
-                                                                <use xlink:href="#icon-chevron-right"></use>
-                                                            </svg>
+                                                            {@html ChevronRightSvg}
                                                         </a>
 
                                                     </li>
@@ -177,9 +169,7 @@
                             <span class="nab-accordion__title__description">Credit cards</span>
                         </span>
                                                 <span class="nab-accordion__icon nab-accordion__icon--up">
-                            <svg focusable="false" aria-hidden="true">
-                                <use xlink:href="#icon-chevron-down"></use>
-                            </svg>
+                             {@html ChevronDownSvg}
                         </span>
                                             </button>
                                         </h3>
@@ -191,9 +181,7 @@
                                                         <span class="cmp-list__item-title">Help me choose a credit card</span>
 
 
-                                                        <svg class="cmp-list__item-icon" aria-hidden="true" focusable="false">
-                                                            <use xlink:href="#icon-chevron-right"></use>
-                                                        </svg>
+                                                        {@html ChevronRightSvg}
                                                     </a>
 
                                                 </li>
@@ -204,9 +192,7 @@
                                                         <span class="cmp-list__item-title">Compare credit cards</span>
 
 
-                                                        <svg class="cmp-list__item-icon" aria-hidden="true" focusable="false">
-                                                            <use xlink:href="#icon-chevron-right"></use>
-                                                        </svg>
+                                                        {@html ChevronRightSvg}
                                                     </a>
 
                                                 </li>
@@ -217,9 +203,7 @@
                                                         <span class="cmp-list__item-title">Credit card balance transfers</span>
 
 
-                                                        <svg class="cmp-list__item-icon" aria-hidden="true" focusable="false">
-                                                            <use xlink:href="#icon-chevron-right"></use>
-                                                        </svg>
+                                                        {@html ChevronRightSvg}
                                                     </a>
 
                                                 </li>
@@ -230,9 +214,7 @@
                                                         <span class="cmp-list__item-title">View all credit cards</span>
 
 
-                                                        <svg class="cmp-list__item-icon" aria-hidden="true" focusable="false">
-                                                            <use xlink:href="#icon-chevron-right"></use>
-                                                        </svg>
+                                                        {@html ChevronRightSvg}
                                                     </a>
 
                                                 </li>
@@ -275,9 +257,7 @@
                             <span class="nab-accordion__title__description">Bank accounts</span>
                         </span>
                                                 <span class="nab-accordion__icon nab-accordion__icon--up">
-                            <svg focusable="false" aria-hidden="true">
-                                <use xlink:href="#icon-chevron-down"></use>
-                            </svg>
+                             {@html ChevronRightSvg}
                         </span>
                                             </button>
                                         </h3>
@@ -289,9 +269,7 @@
                                                         <span class="cmp-list__item-title">Transaction accounts</span>
 
 
-                                                        <svg class="cmp-list__item-icon" aria-hidden="true" focusable="false">
-                                                            <use xlink:href="#icon-chevron-right"></use>
-                                                        </svg>
+                                                        {@html ChevronRightSvg}
                                                     </a>
 
                                                 </li>
@@ -302,9 +280,7 @@
                                                         <span class="cmp-list__item-title">Savings accounts</span>
 
 
-                                                        <svg class="cmp-list__item-icon" aria-hidden="true" focusable="false">
-                                                            <use xlink:href="#icon-chevron-right"></use>
-                                                        </svg>
+                                                        {@html ChevronRightSvg}
                                                     </a>
 
                                                 </li>
@@ -315,9 +291,7 @@
                                                         <span class="cmp-list__item-title">NAB Now Pay Later</span>
 
 
-                                                        <svg class="cmp-list__item-icon" aria-hidden="true" focusable="false">
-                                                            <use xlink:href="#icon-chevron-right"></use>
-                                                        </svg>
+                                                        {@html ChevronRightSvg}
                                                     </a>
 
                                                 </li>
@@ -328,9 +302,7 @@
                                                         <span class="cmp-list__item-title">View all bank accounts</span>
 
 
-                                                        <svg class="cmp-list__item-icon" aria-hidden="true" focusable="false">
-                                                            <use xlink:href="#icon-chevron-right"></use>
-                                                        </svg>
+                                                        {@html ChevronRightSvg}
                                                     </a>
 
                                                 </li>
@@ -373,9 +345,7 @@
                             <span class="nab-accordion__title__description">Personal loans</span>
                         </span>
                                                 <span class="nab-accordion__icon nab-accordion__icon--up">
-                            <svg focusable="false" aria-hidden="true">
-                                <use xlink:href="#icon-chevron-down"></use>
-                            </svg>
+                             {@html ChevronDownSvg}
                         </span>
                                             </button>
                                         </h3>
@@ -387,9 +357,7 @@
                                                         <span class="cmp-list__item-title">Borrowing power calculator</span>
 
 
-                                                        <svg class="cmp-list__item-icon" aria-hidden="true" focusable="false">
-                                                            <use xlink:href="#icon-chevron-right"></use>
-                                                        </svg>
+                                                        {@html ChevronRightSvg}
                                                     </a>
 
                                                 </li>
@@ -400,9 +368,7 @@
                                                         <span class="cmp-list__item-title">Loan repayment calculator </span>
 
 
-                                                        <svg class="cmp-list__item-icon" aria-hidden="true" focusable="false">
-                                                            <use xlink:href="#icon-chevron-right"></use>
-                                                        </svg>
+                                                        {@html ChevronRightSvg}
                                                     </a>
 
                                                 </li>
@@ -413,9 +379,7 @@
                                                         <span class="cmp-list__item-title">Debt consolidation calculator</span>
 
 
-                                                        <svg class="cmp-list__item-icon" aria-hidden="true" focusable="false">
-                                                            <use xlink:href="#icon-chevron-right"></use>
-                                                        </svg>
+                                                        {@html ChevronRightSvg}
                                                     </a>
 
                                                 </li>
@@ -426,9 +390,7 @@
                                                         <span class="cmp-list__item-title">View all personal loans</span>
 
 
-                                                        <svg class="cmp-list__item-icon" aria-hidden="true" focusable="false">
-                                                            <use xlink:href="#icon-chevron-right"></use>
-                                                        </svg>
+                                                        {@html ChevronRightSvg}
                                                     </a>
 
                                                 </li>
@@ -451,8 +413,6 @@
 
 
 
-                            <link rel="stylesheet" href="/etc.clientlibs/nab/clientlibs/clientlib-generated-accordion.7f4cd7069181ab3ee9ac0e9358f80535.css" type="text/css">
-                            <script src="/etc.clientlibs/nab/clientlibs/clientlib-generated-accordion.7ecb801def244869ddffde2b6905df68.js"></script>
 
 
 

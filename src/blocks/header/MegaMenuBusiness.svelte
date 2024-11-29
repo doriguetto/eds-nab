@@ -110,24 +110,7 @@
                                     <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
 
                                         <div class="image aem-GridColumn aem-GridColumn--default--12">
-                                            <div data-cmp-lazythreshold="0"
-                                                 data-cmp-src="/content/experience-fragments/nab/en/mega-menu-widget/product/business-accounts/nab-bookkeeper/master/_jcr_content/root/responsivegrid/section_container_co/image.coreimg.95.jpeg/1715316043261/nab-business-brand-campaign-bookkeeper-3000x1000.jpeg"
-                                                 data-cmp-widths="512,1024,1280,1440,1920,2048"
-                                                 data-asset="/content/dam/nab/images/types/banners/nab-business-brand-campaign-bookkeeper-3000x1000.jpeg"
-                                                 data-asset-id="886c0fb7-13e2-41ac-89f7-2a22b351003e"
-                                                 id="image-d7f9b20e03"
-                                                 class="cmp-image"
 
-                                                 itemtype="http://schema.org/ImageObject">
-
-                                                <img class="cmp-image__image"
-                                                     itemprop="contentUrl"
-                                                     data-cmp-hook-image="image"
-                                                     alt=""
-                                                     src="/content/experience-fragments/nab/en/mega-menu-widget/product/business-accounts/nab-bookkeeper/master/_jcr_content/root/responsivegrid/section_container_co/image.coreimg.95.512.jpeg/1715316043261/nab-business-brand-campaign-bookkeeper-3000x1000.jpeg">
-
-
-                                            </div>
 
 
                                         </div>
@@ -469,24 +452,7 @@ Get a 6-month free trial with NAB Bookkeeper
                                     <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
 
                                         <div class="image aem-GridColumn aem-GridColumn--default--12">
-                                            <div data-cmp-lazythreshold="0"
-                                                 data-cmp-src="/content/experience-fragments/nab/en/mega-menu-widget/product/business_loans/quickbiz-unsecured-banner-tile/master/_jcr_content/root/responsivegrid/section_container/image.coreimg.95.jpeg/1670819594891/quickbiz-clock-masthead-banner-image-1920x690.jpeg"
-                                                 data-cmp-widths="512,1024,1280,1440,1920,2048"
-                                                 data-asset="/content/dam/nabrwd/images/types/banners/quickbiz-clock-masthead-banner-image-1920x690.jpg"
-                                                 data-asset-id="66d2a1bd-a390-4d46-871f-13ca66db69a8"
-                                                 id="image-81f085be0b"
-                                                 class="cmp-image"
 
-                                                 itemtype="http://schema.org/ImageObject">
-
-                                                <img class="cmp-image__image"
-                                                     itemprop="contentUrl"
-                                                     data-cmp-hook-image="image"
-                                                     alt=""
-                                                     src="/content/experience-fragments/nab/en/mega-menu-widget/product/business_loans/quickbiz-unsecured-banner-tile/master/_jcr_content/root/responsivegrid/section_container/image.coreimg.95.512.jpeg/1670819594891/quickbiz-clock-masthead-banner-image-1920x690.jpeg">
-
-
-                                            </div>
 
 
                                         </div>
@@ -789,25 +755,7 @@ Get a 6-month free trial with NAB Bookkeeper
                                     <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
 
                                         <div class="image aem-GridColumn aem-GridColumn--default--12">
-                                            <div data-cmp-lazythreshold="0"
-                                                 data-cmp-src="/content/experience-fragments/nab/en/mega-menu-widget/product/business_credit_card/nab-qantas-business-signature-card-bonus-points-offer/master/_jcr_content/root/responsivegrid/section_container_co/image.coreimg.95.jpeg/1701218536145/nab-qantas-business-signature-card-with-background-3000x1000.jpeg"
-                                                 data-cmp-widths="512,1024,1280,1440,1920,2048"
-                                                 data-asset="/content/dam/nab/images/types/banners/nab-qantas-business-signature-card-with-background-3000x1000.jpg"
-                                                 data-asset-id="d87948d6-a373-4894-ab4b-4c8849aba6c0"
-                                                 data-title="NAB Qantas Business Signature Card"
-                                                 id="image-b0687d5943"
-                                                 class="cmp-image"
 
-                                                 itemtype="http://schema.org/ImageObject">
-
-                                                <img class="cmp-image__image"
-                                                     itemprop="contentUrl"
-                                                     data-cmp-hook-image="image"
-                                                     alt="NAB Qantas Business Signature Card"
-                                                     src="/content/experience-fragments/nab/en/mega-menu-widget/product/business_credit_card/nab-qantas-business-signature-card-bonus-points-offer/master/_jcr_content/root/responsivegrid/section_container_co/image.coreimg.95.512.jpeg/1701218536145/nab-qantas-business-signature-card-with-background-3000x1000.jpeg">
-
-
-                                            </div>
 
 
                                         </div>
@@ -1122,24 +1070,7 @@ Related tools and help
                                     <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 aem-Grid--sm--12 aem-Grid--xs--12 ">
 
                                         <div class="image aem-GridColumn aem-GridColumn--default--12">
-                                            <div data-cmp-lazythreshold="0"
-                                                 data-cmp-src="/content/experience-fragments/nab/en/mega-menu-widget/product/payments-merchants/eftpos-200-cashback-offer/master/_jcr_content/root/responsivegrid/section_container_co/image.coreimg.95.jpeg/1722563171209/nab-business-brand-campaign-terminal-3000x1000.jpeg"
-                                                 data-cmp-widths="512,1024,1280,1440,1920,2048"
-                                                 data-asset="/content/dam/nab/images/types/banners/nab-business-brand-campaign-terminal-3000x1000.jpg"
-                                                 data-asset-id="768bb794-70c4-4322-bb8f-313dd3dc7795"
-                                                 id="image-8777d824b5"
-                                                 class="cmp-image"
 
-                                                 itemtype="http://schema.org/ImageObject">
-
-                                                <img class="cmp-image__image"
-                                                     itemprop="contentUrl"
-                                                     data-cmp-hook-image="image"
-                                                     alt=""
-                                                     src="/content/experience-fragments/nab/en/mega-menu-widget/product/payments-merchants/eftpos-200-cashback-offer/master/_jcr_content/root/responsivegrid/section_container_co/image.coreimg.95.512.jpeg/1722563171209/nab-business-brand-campaign-terminal-3000x1000.jpeg">
-
-
-                                            </div>
 
 
                                         </div>
@@ -1457,24 +1388,7 @@ Related tools and help
                                     <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
 
                                         <div class="image aem-GridColumn aem-GridColumn--default--12">
-                                            <div data-cmp-lazythreshold="0"
-                                                 data-cmp-src="/content/experience-fragments/nab/en/mega-menu-widget/support_and_services/business_online_bank/related-tools-and-nab-connect-promo/master/_jcr_content/root/responsivegrid/section_container_1876757274/image.coreimg.95.jpeg/1726798838217/man-on-laptop-with-nab-connect-login-3000x1000.jpeg"
-                                                 data-cmp-widths="512,1024,1280,1440,1920,2048"
-                                                 data-asset="/content/dam/nab/images/types/banners/man-on-laptop-with-nab-connect-login-3000x1000.jpg"
-                                                 data-asset-id="e4ce3886-a8fd-41b5-8b58-eabbc2c6239f"
-                                                 id="image-0697a4cee7"
-                                                 class="cmp-image"
 
-                                                 itemtype="http://schema.org/ImageObject">
-
-                                                <img class="cmp-image__image"
-                                                     itemprop="contentUrl"
-                                                     data-cmp-hook-image="image"
-                                                     alt=""
-                                                     src="/content/experience-fragments/nab/en/mega-menu-widget/support_and_services/business_online_bank/related-tools-and-nab-connect-promo/master/_jcr_content/root/responsivegrid/section_container_1876757274/image.coreimg.95.512.jpeg/1726798838217/man-on-laptop-with-nab-connect-login-3000x1000.jpeg">
-
-
-                                            </div>
 
 
                                         </div>
@@ -1665,28 +1579,7 @@ NAB Connect
                                     <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
 
                                         <div class="image aem-GridColumn aem-GridColumn--default--12">
-                                            <div data-cmp-lazythreshold="0"
-                                                 data-cmp-src="/content/experience-fragments/nab/en/mega-menu-widget/product/business_industry/international-transfers-business/master/_jcr_content/root/responsivegrid/section_container/image_1835808957_cop.coreimg.95.jpeg/1702531635915/corporate-city-skyline-3000x1000.jpeg"
-                                                 data-cmp-widths="512,1024,1280,1440,1920,2048"
-                                                 data-asset="/content/dam/nab/images/types/banners/corporate-city-skyline_3000x1000.jpg"
-                                                 data-asset-id="b96cad36-b40e-4bd7-a9e9-8d7fd2441f58"
-                                                 data-title="Corporate city skyline"
-                                                 id="image-a37743a7ce"
-                                                 class="cmp-image"
 
-                                                 itemtype="http://schema.org/ImageObject">
-
-                                                <img class="cmp-image__image"
-                                                     itemprop="contentUrl"
-                                                     data-cmp-hook-image="image"
-                                                     alt="Corporate city skyline"
-                                                     title="Corporate city skyline"
-                                                     src="/content/experience-fragments/nab/en/mega-menu-widget/product/business_industry/international-transfers-business/master/_jcr_content/root/responsivegrid/section_container/image_1835808957_cop.coreimg.95.512.jpeg/1702531635915/corporate-city-skyline-3000x1000.jpeg">
-
-
-                                                <meta itemprop="caption"
-                                                      content="Corporate city skyline">
-                                            </div>
 
 
                                         </div>

@@ -109,25 +109,7 @@
                                     <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
 
                                         <div class="image aem-GridColumn aem-GridColumn--default--12">
-                                            <div data-cmp-lazythreshold="0"
-                                                 data-cmp-src="/content/experience-fragments/nab/en/mega-menu-widget/support_and_services/morning-call-podcast/master/_jcr_content/root/responsivegrid/section_container_18/image.coreimg.95.jpeg/1685512462037/headphones-banner-2500x900.jpeg"
-                                                 data-cmp-widths="512,1024,1280,1440,1920,2048"
-                                                 data-asset="/content/dam/nabrwd/images/types/banners/headphones-banner-2500x900.jpg"
-                                                 data-asset-id="afd6194b-484d-4b7e-b500-4cafca65b046"
-                                                 data-title="headphones"
-                                                 id="image-73ab1d00a7"
-                                                 class="cmp-image"
 
-                                                 itemtype="http://schema.org/ImageObject">
-
-                                                <img class="cmp-image__image"
-                                                     itemprop="contentUrl"
-                                                     data-cmp-hook-image="image"
-                                                     alt="headphones"
-                                                     src="/content/experience-fragments/nab/en/mega-menu-widget/support_and_services/morning-call-podcast/master/_jcr_content/root/responsivegrid/section_container_18/image.coreimg.95.512.jpeg/1685512462037/headphones-banner-2500x900.jpeg">
-
-
-                                            </div>
 
 
                                         </div>
@@ -364,25 +346,7 @@
                                     <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
 
                                         <div class="image aem-GridColumn aem-GridColumn--default--12">
-                                            <div data-cmp-lazythreshold="0"
-                                                 data-cmp-src="/content/experience-fragments/nab/en/mega-menu-widget/support_and_services/morning-call-podcast/master/_jcr_content/root/responsivegrid/section_container_18/image.coreimg.95.jpeg/1685512462037/headphones-banner-2500x900.jpeg"
-                                                 data-cmp-widths="512,1024,1280,1440,1920,2048"
-                                                 data-asset="/content/dam/nabrwd/images/types/banners/headphones-banner-2500x900.jpg"
-                                                 data-asset-id="afd6194b-484d-4b7e-b500-4cafca65b046"
-                                                 data-title="headphones"
-                                                 id="image-73ab1d00a7"
-                                                 class="cmp-image"
 
-                                                 itemtype="http://schema.org/ImageObject">
-
-                                                <img class="cmp-image__image"
-                                                     itemprop="contentUrl"
-                                                     data-cmp-hook-image="image"
-                                                     alt="headphones"
-                                                     src="/content/experience-fragments/nab/en/mega-menu-widget/support_and_services/morning-call-podcast/master/_jcr_content/root/responsivegrid/section_container_18/image.coreimg.95.512.jpeg/1685512462037/headphones-banner-2500x900.jpeg">
-
-
-                                            </div>
 
 
                                         </div>

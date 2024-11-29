@@ -1279,25 +1279,7 @@
                                     <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
 
                                         <div class="image aem-GridColumn aem-GridColumn--default--12">
-                                            <div data-cmp-lazythreshold="0"
-                                                 data-cmp-src="/content/experience-fragments/nab/en/mega-menu-widget/product/personal/international-banking-mega-menu-tile/master/_jcr_content/root/responsivegrid/section_container_co/image_1835808957.coreimg.95.jpeg/1702614173357/international-money-masthead-2500x900.jpeg"
-                                                 data-cmp-widths="512,1024,1280,1440,1920,2048"
-                                                 data-asset="/content/dam/nabrwd/personal/international/images/international_money_masthead_2500x900.jpg"
-                                                 data-asset-id="53167083-bd58-480f-b34a-be075bbca1a2"
-                                                 id="image-8f25d5b664"
-                                                 class="cmp-image"
 
-                                                 itemtype="http://schema.org/ImageObject"
-                                            >
-
-                                                <img class="cmp-image__image"
-                                                     itemprop="contentUrl"
-                                                     data-cmp-hook-image="image"
-                                                     alt=""
-                                                     src="/content/experience-fragments/nab/en/mega-menu-widget/product/personal/international-banking-mega-menu-tile/master/_jcr_content/root/responsivegrid/section_container_co/image_1835808957.coreimg.95.512.jpeg/1702614173357/international-money-masthead-2500x900.jpeg">
-
-
-                                            </div>
 
 
                                         </div>
