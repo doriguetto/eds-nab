@@ -1,4 +1,10 @@
+<script lang="ts">
+    import HomeLoanSvg from '../../assets/home-loan.svg?raw';
+    import CardsSvg from '../../assets/cards.svg?raw';
+    import PersonalLoanSvg from '../../assets/personal-loan.svg?raw';
+    import TransactionAccountSvg from '../../assets/transaction-account.svg?raw';
 
+</script>
 <div class="responsivegrid responsivegrid--fixed responsivegrid--gutters-col responsivegrid--gutters-row aem-GridColumn aem-GridColumn--default--12">
     <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
         <section class="section-container container responsivegrid section-container__notched bg-nab-white aem-GridColumn aem-GridColumn--default--12">
@@ -41,7 +47,7 @@
                         </div>
                         <div class="accordion-link-list accordion panelcontainer nab-accordion--link-list aem-GridColumn aem-GridColumn--default--12">
 
-                            <nab-accordion class="nab-accordion--no-touch">
+                            <div class="nab-accordion--no-touch">
                                 <ul class="nab-accordion ls-none accordion-link-list">
                                     <li class="nab-accordion__item nab-accordion--expanded" data-initialised="true" data-initially-expanded="false">
                                         <div class="nab-accordion__content">
@@ -51,9 +57,9 @@
 
 
             <span class="cmp-title__text h3">
-                <svg class="cmp-title__icon" focusable="false">
-                    <use xlink:href="#icon-home-loan"></use>
-                </svg>
+                <span class="cmp-title__icon" >
+                {@html HomeLoanSvg}
+                    </span>
                 <a class="cmp-title__link" href="/personal/home-loans">Home loans</a>
             </span>
         </span>
@@ -148,9 +154,10 @@
 
 
             <span class="cmp-title__text h3">
-                <svg class="cmp-title__icon" focusable="false">
-                    <use xlink:href="#icon-cards"></use>
-                </svg>
+                                <span class="cmp-title__icon" >
+
+                {@html CardsSvg}
+                                </span>
                 <a class="cmp-title__link" href="/personal/credit-cards">Credit cards</a>
             </span>
         </span>
@@ -245,9 +252,10 @@
 
 
             <span class="cmp-title__text h3">
-                <svg class="cmp-title__icon" focusable="false">
-                    <use xlink:href="#icon-transaction-account"></use>
-                </svg>
+                                <span class="cmp-title__icon" >
+
+                {@html TransactionAccountSvg}
+                                </span>
                 <a class="cmp-title__link" href="/personal/bank-accounts">Bank accounts</a>
             </span>
         </span>
@@ -342,9 +350,10 @@
 
 
             <span class="cmp-title__text h3">
-                <svg class="cmp-title__icon" focusable="false">
-                    <use xlink:href="#icon-personal-loan"></use>
-                </svg>
+                                <span class="cmp-title__icon" >
+
+                {@html PersonalLoanSvg}
+                                </span>
                 <a class="cmp-title__link" href="/personal/personal-loans">Personal loans</a>
             </span>
         </span>
@@ -434,7 +443,7 @@
                                 </li>
 
                                 </ul>
-                            </nab-accordion>
+                            </div>
 
 
 

@@ -887,3 +887,42 @@
 .nab-button--primary .nab-button:active span {
   text-decoration: underline
 }
+
+
+.responsivegrid .aem-Grid.aem-Grid--default--12>.aem-GridColumn.aem-GridColumn--default--11.responsivegrid--fixed,.responsivegrid .aem-Grid.aem-Grid--default--12>.aem-GridColumn.aem-GridColumn--default--12 {
+  grid-column-end: span 12
+}
+
+.responsivegrid .aem-Grid.aem-Grid--default--12 {
+  grid-template-columns: repeat(12,minmax(0,1fr))
+}
+
+@media(max-width: 767px) {
+  .responsivegrid .aem-Grid.aem-Grid--xs--12 {
+    grid-template-columns:repeat(12,minmax(0,1fr))
+  }
+}
+
+@media(min-width: 768px)and (max-width:991px) {
+  .responsivegrid .aem-Grid.aem-Grid--sm--12 {
+    grid-template-columns:repeat(12,minmax(0,1fr))
+  }
+}
+
+@media(min-width: 992px)and (max-width:1327px) {
+  .responsivegrid .aem-Grid.aem-Grid--md--12 {
+    grid-template-columns:repeat(12,minmax(0,1fr))
+  }
+}
+
+.feature-content .cmp-title:first-child .cmp-title__heading {
+  margin-top: 0
+}
+
+.responsivegrid .aem-Grid.aem-Grid--default--12>.aem-GridColumn.aem-GridColumn--default--6 {
+  grid-column-end: span 6
+}
+
+.responsivegrid .aem-Grid.aem-Grid--default--6>.aem-GridColumn.aem-GridColumn--default--5.responsivegrid--fixed,.responsivegrid .aem-Grid.aem-Grid--default--6>.aem-GridColumn.aem-GridColumn--default--6 {
+  grid-column-end: span 6
+}
