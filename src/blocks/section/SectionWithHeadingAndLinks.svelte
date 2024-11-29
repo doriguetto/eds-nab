@@ -7,7 +7,7 @@
     import ChevronDownSvg from "../../assets/chevron-down.svg?raw";
 
 </script>
-<div class="responsivegrid responsivegrid--fixed responsivegrid--gutters-col responsivegrid--gutters-row aem-GridColumn aem-GridColumn--default--12">
+<div class="section-with-heading-and-links responsivegrid responsivegrid--fixed responsivegrid--gutters-col responsivegrid--gutters-row aem-GridColumn aem-GridColumn--default--12">
     <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
         <section class="section-container container responsivegrid section-container__notched bg-nab-white aem-GridColumn aem-GridColumn--default--12">
             <div id="section-container-0a257543e3" class="cmp-container"></div>
